@@ -7,10 +7,10 @@
 
       <div class="social-icons">
         <a href="https://github.com/EdwinASalcedo" target="_blank">
-          <img src="../assets/github.svg" alt="GitHub" class="icon" />
+          <img src="/icons/github.svg" alt="GitHub" class="icon" />
         </a>
         <a href="https://twitter.com/EdSauce_edo" target="_blank">
-          <img src="../assets/x.svg" alt="Twitter" class="icon" />
+          <img src="/icons/x.svg" alt="Twitter" class="icon" />
         </a>
         <a href="https://linkedin.com/in/edwin-a-salcedo/" target="_blank">
           <img src="/icons/linkedin.svg" alt="LinkedIn" class="icon" />
