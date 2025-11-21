@@ -204,13 +204,14 @@ import BreadcrumbNav from '@/components/BreadcrumbNav.vue'
   font-size: 1.4rem;
   line-height: 1.6;
   margin-bottom: 1rem;
+  color: var(--text-primary);
 }
 
 .bio-image img {
   width: 300px;
   height: auto;
   border-radius: 8px;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+  box-shadow: 0 4px 12px var(--card-shadow);
 }
 
 .skills-section {

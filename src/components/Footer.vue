@@ -57,11 +57,13 @@ function scrollToTop() {
 .social-icons {
   display: flex;
   gap: 1.5rem;
+  color: var(--text-primary);
 }
 
 .icon {
   width: 24px;
   height: 24px;
+  color: var(--text-primary);
 }
 
 .social-icons a:hover .icon {

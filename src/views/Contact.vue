@@ -36,7 +36,7 @@ import { Send } from 'lucide-vue-next'
       <Card
         icon="/icons/mail.svg"
         title="Email"
-        subtitle="Email me for any opportunities or questions"
+        subtitle="Email me for any opportunities or questions edwin.a.salcedo02@gmail.com"
         color="#e3eb02"
       />
       <Card
@@ -66,6 +66,7 @@ import { Send } from 'lucide-vue-next'
   font-size: 1.4rem;
   line-height: 1.6;
   margin: 0 auto;
+  color: var(--text-primary);
 }
 
 .nav-cards {

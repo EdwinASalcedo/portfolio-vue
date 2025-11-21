@@ -49,7 +49,7 @@ export default {
 .breadcrumb {
   max-width: 1200px;
   margin: 0 auto;
-  padding: 1rem 1rem 0;
+  padding: 0rem 1rem 1rem;
   display: flex;
   gap: 0;
 }

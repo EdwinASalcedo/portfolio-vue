@@ -74,6 +74,7 @@ import Header from '@/components/Header.vue'
   font-size: 1.4rem;
   line-height: 1.6;
   margin: 0 auto;
+  color: var(--text-primary);
 }
 
 .nav-cards {

@@ -53,7 +53,6 @@ export default {
   align-items: center;
   gap: 1rem;
   padding: 1rem;
-  background: white;
 }
 
 .app-icon {
@@ -72,12 +71,12 @@ export default {
   font-size: 1rem;
   font-weight: 600;
   margin: 0 0 0.25rem 0;
-  color: #000;
+  color: var(--text-primary);
 }
 
 .app-subtitle {
   font-size: 0.875rem;
-  color: #666;
+  color: var(--text-secondary);
   margin: 0 0 0.5rem 0;
   white-space: nowrap;
   overflow: hidden;

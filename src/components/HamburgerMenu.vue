@@ -57,7 +57,7 @@ export default {
 .hamburger span {
   width: 30px;
   height: 3px;
-  background: black;
+  background: var(--text-primary);
   transition: all 0.3s ease;
   border-radius: 2px;
 }
@@ -81,9 +81,9 @@ export default {
   top: 100%;
   right: 0;
   margin-top: 0.5rem;
-  background: white;
+  background: var(--bg-secondary);
   border-radius: 8px;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 4px 12px var(--card-shadow);
   display: flex;
   flex-direction: column;
   padding: 0.5rem 0;
@@ -103,18 +103,18 @@ export default {
 
 .menu a {
   font-size: 1.1rem;
-  color: #333;
+  color: var(--text-primary);
   text-decoration: none;
   padding: 0.75rem 1.5rem;
   transition: background 0.2s;
 }
 
 .menu a:hover {
-  background: #f5f5f5;
+  background: var(--hover-bg);
 }
 
 .menu a.router-link-active {
-  color: #4a90e2;
-  background: #f0f8ff;
+  /* color: #4a90e2; */
+  background: #7d7d7d2d;
 }
 </style>

@@ -3,20 +3,24 @@
     <HamburgerMenu />
 
     <router-link to="/">
-      <img src="../assets/uf.png" alt="Logo" class="logo" />
+      <img src="/icons/sslogo.png" alt="Logo" class="logo" />
     </router-link>
 
     <h1 class="page-title">{{ headerTitle }}</h1>
+
+    <DarkModeToggle class="dark-mode-btn" />
   </div>
 </template>
 
 <script>
+import DarkModeToggle from './DarkModeToggle.vue'
 import HamburgerMenu from './HamburgerMenu.vue'
 
 export default {
   name: 'Header',
   components: {
     HamburgerMenu,
+    DarkModeToggle,
   },
   props: {
     headerTitle: {
@@ -46,14 +50,20 @@ export default {
 }
 
 .logo {
-  width: 200px;
+  width: 400px;
   height: auto;
 }
 
 .page-title {
-  color: black;
+  color: var(--text-primary);
   font-size: 3rem;
   margin-top: 1rem;
   margin-bottom: 0rem;
+}
+
+.dark-mode-btn {
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
 }
 </style>

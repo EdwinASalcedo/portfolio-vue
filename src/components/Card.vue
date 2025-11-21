@@ -81,7 +81,7 @@ export default {
 }
 
 .card {
-  background: white;
+  background: var(--bg-secondary);
   border-top: 6px solid #333;
   padding: 0;
   text-align: center;
@@ -91,7 +91,7 @@ export default {
   position: relative;
   width: 100%;
   height: 100%;
-  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 2px 10px var(--card-shadow);
 }
 
 .card-wrapper:hover .card {
@@ -134,8 +134,9 @@ export default {
   text-align: left;
 }
 
-.card h3 {
+.card-back h3 {
   font-size: 1.2rem;
+  color: black;
 }
 
 .card-back p {

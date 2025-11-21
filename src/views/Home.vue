@@ -75,6 +75,7 @@ import { Send } from 'lucide-vue-next'
 }
 
 .hero-text {
+  color: var(--text-primary);
   font-size: 1.4rem;
   line-height: 1.6;
   margin: 0 auto;
